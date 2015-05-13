@@ -1,0 +1,909 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"arra",
+				"array_chunk〔function〕"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"ma",
+				"markdown"
+			],
+			[
+				"m",
+				"map〔function〕"
+			],
+			[
+				"f",
+				"function"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"sele",
+				"selectSub〔function〕"
+			],
+			[
+				"Ilbuilder",
+				"Illuminate\\Database\\Query\\Builder〔class〕"
+			],
+			[
+				"fac",
+				"factory"
+			],
+			[
+				"Set",
+				"Setting"
+			],
+			[
+				"varia",
+				"variant_settings"
+			],
+			[
+				"wire",
+				"wire_discount"
+			],
+			[
+				"other",
+				"other_discount"
+			],
+			[
+				"e",
+				"echo	echo \"…\""
+			],
+			[
+				"varg",
+				"vagrant"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "<?php namespace Illuminate\\Foundation;\n\nuse Illuminate\\Support\\Collection;\n\nclass Inspiring {\n\n	/**\n	 * Get an inspiring quote.\n	 *\n	 * Taylor & Dayle made this commit from Jungfraujoch. (11,333 ft.)\n	 *\n	 * @return string\n	 */\n	public static function quote()\n	{\n		return Collection::make([\n\n			'When there is no desire, all things are at peace. - Laozi',\n			'Simplicity is the ultimate sophistication. - Leonardo da Vinci',\n			'Simplicity is the essence of happiness. - Cedric Bledsoe',\n			'Smile, breathe, and go slowly. - Thich Nhat Hanh',\n			'Simplicity is an acquired taste. - Katharine Gerould',\n			'Well begun is half done. - Aristotle',\n\n		])->rand\n	}\n\n}\n",
+			"file": "vendor/laravel/framework/src/Illuminate/Foundation/Inspiring.php",
+			"file_size": 668,
+			"file_write_time": 130740542720000000,
+			"settings":
+			{
+				"buffer_size": 663,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/User.php",
+			"settings":
+			{
+				"buffer_size": 862,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 79.0,
+		"last_filter": "php",
+		"selected_items":
+		[
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				" ash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"bash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"menu",
+				"View: Toggle Menu"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"sublimeco",
+				"SublimeCodeIntel: Enable Live Autocompletion for Current Language"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"bas",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"ruby",
+				"Set Syntax: Ruby"
+			],
+			[
+				"basg",
+				"Bookmarks: Toggle"
+			]
+		],
+		"width": 435.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/vinay/Projects/php/blog",
+		"/home/vinay/Projects/php/blog/app",
+		"/home/vinay/Projects/php/blog/app/Http",
+		"/home/vinay/Projects/php/blog/app/Http/Controllers",
+		"/home/vinay/Projects/php/blog/database",
+		"/home/vinay/Projects/php/blog/database/seeds",
+		"/home/vinay/Projects/php/blog/resources/views",
+		"/home/vinay/Projects/php/blog/resources/views/docs",
+		"/home/vinay/Projects/php/blog/tests",
+		"/home/vinay/Projects/php/blog/tests/factories"
+	],
+	"file_history":
+	[
+		"/home/vinay/Projects/php/blog/database/seeds/PostsTableSeeder.php",
+		"/home/vinay/Projects/php/blog/app/Console/Commands/Inspire.php",
+		"/home/vinay/Projects/php/blog/vendor/laravel/framework/src/Illuminate/Foundation/Inspiring.php",
+		"/home/vinay/Projects/php/blog/app/Http/routes.php",
+		"/home/vinay/Projects/php/blog/resources/views/docs/index.blade.php",
+		"/home/vinay/Projects/php/blog/composer.json",
+		"/home/vinay/Projects/php/blog/app/Post.php",
+		"/home/vinay/Projects/php/blog/app/Http/Controllers/ReportController.php",
+		"/home/vinay/Projects/php/bgd/trunk/public_flat_design/app/config/local_bootstrap.php",
+		"/home/vinay/Projects/php/blog/app/Http/Controllers/DocsController.php",
+		"/home/vinay/Projects/php/blog/app/Business/Diamond.php",
+		"/home/vinay/Projects/php/blog/config/app.php",
+		"/home/vinay/Projects/php/blog/vendor/autoload.php",
+		"/home/vinay/Projects/php/blog/vendor/laravel/framework/src/Illuminate/Support/Collection.php",
+		"/home/vinay/Projects/php/blog/database/seeds/DatabaseSeeder.php",
+		"/home/vinay/Projects/php/blog/package.json",
+		"/home/vinay/Projects/php/blog/tests/factories/all.php",
+		"/home/vinay/Projects/php/blog/storage/app/la_docs/configuration.md",
+		"/home/vinay/Projects/php/blog/resources/views/welcome.blade.php",
+		"/home/vinay/Projects/php/blog/vendor/laravel/framework/src/Illuminate/Queue/SerializesModels.php",
+		"/home/vinay/Projects/php/blog/storage/app/queue.txt",
+		"/home/vinay/Projects/php/blog/app/Commands/BuyProductCommand.php",
+		"/home/vinay/Projects/php/blog/.env",
+		"/home/vinay/Projects/php/blog/vendor/laravel/framework/src/Illuminate/Queue/InteractsWithQueue.php",
+		"/home/vinay/Projects/php/blog/vendor/laravel/framework/src/Illuminate/Contracts/Queue/ShouldBeQueued.php",
+		"/home/vinay/Projects/php/blog/vendor/laravel/framework/src/Illuminate/Foundation/Bus/DispatchesCommands.php",
+		"/home/vinay/Projects/php/blog/vendor/danielstjules/stringy/src/Stringy.php",
+		"/home/vinay/Projects/php/blog/vendor/laravel/framework/src/Illuminate/Filesystem/FilesystemManager.php",
+		"/home/vinay/Projects/php/blog/vendor/laravel/framework/src/Illuminate/Contracts/Filesystem/Factory.php",
+		"/home/vinay/Projects/php/blog/vendor/laravel/framework/src/Illuminate/Support/Facades/Storage.php",
+		"/home/vinay/Projects/php/blog/app/Http/Controllers/Controller.php",
+		"/home/vinay/Projects/php/blog/vendor/laravel/framework/src/Illuminate/Routing/Controller.php",
+		"/home/vinay/Projects/php/blog/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/Exception/NotFoundHttpException.php",
+		"/home/vinay/Projects/php/blog/vendor/laravel/framework/src/Illuminate/Foundation/Validation/ValidatesRequests.php",
+		"/home/vinay/Projects/php/blog/app/helpers/String.php",
+		"/home/vinay/Projects/php/blog/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php",
+		"/home/vinay/Projects/php/blog/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php",
+		"/home/vinay/Projects/php/blog/vendor/laravel/framework/src/Illuminate/Routing/Router.php",
+		"/home/vinay/Projects/php/blog/vendor/laravel/framework/src/Illuminate/Routing/Route.php",
+		"/home/vinay/Projects/php/blog/vendor/laravel/framework/src/Illuminate/Routing/RouteCollection.php",
+		"/home/vinay/Projects/php/blog/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php",
+		"/home/vinay/Projects/php/blog/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php",
+		"/home/vinay/Projects/php/blog/vendor/laravel/framework/src/Illuminate/View/View.php",
+		"/home/vinay/Projects/php/blog/vendor/codeception/codeception/src/Codeception/Util/FileSystem.php",
+		"/home/vinay/Projects/php/blog/blog.sublime-project",
+		"/home/vinay/Projects/php/blog/config/filesystems.php",
+		"/home/vinay/Projects/php/blog/vendor/symfony/finder/Symfony/Component/Finder/Iterator/FilePathsIterator.php",
+		"/home/vinay/Projects/php/blog/vendor/laravel/framework/src/Illuminate/Filesystem/FilesystemServiceProvider.php",
+		"/home/vinay/Projects/php/blog/vendor/symfony/finder/Symfony/Component/Finder/Finder.php",
+		"/home/vinay/Projects/php/blog/vendor/laravel/framework/src/Illuminate/Support/Traits/Macroable.php",
+		"/home/vinay/Projects/php/blog/bootstrap/app.php",
+		"/home/vinay/.config/sublime-text-3/Packages/User/SublimeCodeIntel.sublime-settings",
+		"/home/vinay/Projects/php/blog/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php",
+		"/home/vinay/.config/sublime-text-3/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
+		"/home/vinay/Projects/php/blog/app/Providers/BusServiceProvider.php",
+		"/home/vinay/.bash_aliases",
+		"/home/vinay/Projects/php/blog/vendor/laracasts/testdummy/src/Builder.php",
+		"/home/vinay/Projects/php/docs/docs/artisan.md",
+		"/home/vinay/Projects/php/blog/vendor/bin/codecept",
+		"/home/vinay/Projects/php/blog/vendor/facebook/webdriver/tests/functional/FileUploadTest.php",
+		"/home/vinay/Projects/php/blog/vendor/facebook/webdriver/tests/functional/files/FileUploadTestCaseFile.txt",
+		"/home/vinay/Projects/php/blog/database/migrations/2015_05_01_054022_create_posts_table.php",
+		"/home/vinay/Projects/php/blog/database/seeds/CommentsTableSeeder.php",
+		"/home/vinay/Projects/php/blog/vendor/laravel/framework/src/Illuminate/Support/helpers.php",
+		"/home/vinay/Projects/php/blog/vendor/laravel/framework/src/Illuminate/Database/Seeder.php",
+		"/home/vinay/Projects/php/blog/vendor/symfony/console/Symfony/Component/Console/Output/Output.php",
+		"/home/vinay/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/vinay/Projects/php/blog/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migration.php",
+		"/home/vinay/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/vinay/Projects/php/blog/vendor/laravel/framework/src/Illuminate/Contracts/Support/Jsonable.php",
+		"/home/vinay/Projects/php/blog/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Collection.php",
+		"/home/vinay/Projects/php/blog/app/Http/Controllers/WelcomeController.php",
+		"/home/vinay/Projects/php/blog/resources/views/welcome1.blade.php",
+		"/home/vinay/.homestead/Homestead.yaml",
+		"/home/vinay/Projects/php/blog/.env.example",
+		"/home/vinay/Projects/php/blog/storage/framework/config.php",
+		"/home/vinay/Projects/php/blog/vendor/compiled.php",
+		"/usr/share/applications/defaults.list",
+		"/home/vinay/.composer/vendor/bin/homestead",
+		"/home/vinay/Projects/php/blog/vendor/nesbot/carbon/src/Carbon/Carbon.php",
+		"/home/vinay/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/vinay/Projects/php/blog/.gitattributes",
+		"/home/vinay/Projects/php/blog/.gitignore",
+		"/home/vinay/Projects/php/blog/app/Http/Controllers/HomeController.php",
+		"/home/vinay/Projects/php/blog/artisan",
+		"/home/vinay/Projects/php/blog/app/Http/Controllers/Auth/PasswordController.php",
+		"/home/vinay/.config/sublime-text-3/Packages/User/Side Bar.sublime-settings",
+		"/home/vinay/Projects/php/blog/vendor/laravel/framework/src/Illuminate/Foundation/Auth/ResetsPasswords.php",
+		"/home/vinay/Projects/php/blog/vendor/laravel/framework/src/Illuminate/Auth/Passwords/CanResetPassword.php",
+		"/home/vinay/Projects/php/blog/app/Services/Registrar.php",
+		"/home/vinay/Projects/php/blog/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesAndRegistersUsers.php",
+		"/home/vinay/Projects/php/blog/vendor/laravel/framework/src/Illuminate/Support/Facades/Schema.php",
+		"/home/vinay/Projects/php/blog/vendor/league/flysystem/src/Adapter/Local.php",
+		"/home/vinay/Projects/php/blog/app/Providers/AppServiceProvider.php",
+		"/home/vinay/Projects/php/blog/public/index.php",
+		"/home/vinay/Projects/php/blog/app/Http/Kernel.php",
+		"/home/vinay/Projects/php/blog/vendor/laravel/framework/src/Illuminate/Contracts/Http/Kernel.php",
+		"/home/vinay/Projects/php/blog/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernelInterface.php",
+		"/home/vinay/Projects/php/blog/app/Http/Middleware/TerminableMiddleware.php",
+		"/home/vinay/Projects/php/blog/app/Providers/RouteServiceProvider.php",
+		"/home/vinay/Projects/php/blog/storage/app/yoyo.txt",
+		"/home/vinay/Projects/php/blog/vendor/laravel/framework/src/Illuminate/Contracts/Filesystem/Filesystem.php",
+		"/home/vinay/Projects/php/blog/app/Http/Middleware/OldMiddleware.php",
+		"/home/vinay/Projects/php/blog/app/Http/Middleware/VerifyCsrfToken.php",
+		"/home/vinay/Projects/php/blog/resources/views/errors/503.blade.php",
+		"/home/vinay/Projects/php/blog/vendor/laravel/framework/src/Illuminate/Support/ServiceProvider.php",
+		"/home/vinay/Projects/php/blog/vendor/laravel/framework/src/Illuminate/Mail/Mailer.php",
+		"/home/vinay/Projects/php/bgd/trunk/public_flat_design/app/models/setting.php",
+		"/home/vinay/Projects/php/bgd/trunk/public_flat_design/app/views/settings/flip_card_info_complete.ctp",
+		"/home/vinay/Projects/php/bgd/trunk/public_flat_design/app/views/settings/_options.ctp",
+		"/home/vinay/Projects/php/bgd/trunk/public_flat_design/app/views/settings/details.ctp",
+		"/home/vinay/Projects/php/bgd/trunk/public_flat_design/app/controllers/settings_controller.php",
+		"/home/vinay/Projects/php/bgd/trunk/public_flat_design/flat_public.sublime-workspace",
+		"/home/vinay/Projects/php/bgd/trunk/public_flat_design/app/controllers/carts_controller.php",
+		"/home/vinay/Projects/php/bgd/trunk/public_flat_design/app/views/elements/flat_design_layout/head_scripts.ctp",
+		"/home/vinay/Projects/php/bgd/trunk/public_flat_design/flat_public.sublime-project",
+		"/home/vinay/Projects/php/briangavindiamonds/trunk/public_flat_design/app/views/elements/flat_design_layout/header.ctp",
+		"/home/vinay/Projects/php/briangavindiamonds/trunk/public_flat_design/app/config/routes.php",
+		"/home/vinay/Projects/php/briangavindiamonds/trunk/public_flat_design/app/views/elements/webpages/gallery-widget.ctp",
+		"/home/vinay/Projects/php/briangavindiamonds/trunk/public_flat_design/app/views/web_pages/mobile_details.ctp",
+		"/home/vinay/Projects/php/briangavindiamonds/trunk/public_flat_design/app/views/web_pages/details.ctp",
+		"/home/vinay/Projects/php/briangavindiamonds/trunk/public_flat_design/app/webroot/scripts/loader.js",
+		"/home/vinay/Projects/php/briangavindiamonds/trunk/public_flat_design/app/views/elements/contacts/contact-form.ctp",
+		"/home/vinay/Projects/php/briangavindiamonds/trunk/public_flat_design/app/views/elements/contacts/mobile_contact-form.ctp",
+		"/home/vinay/Projects/php/briangavindiamonds/trunk/public_flat_design/app/controllers/web_pages_controller.php",
+		"/home/vinay/Projects/php/briangavindiamonds/trunk/public_flat_design/app/views/elements/error.ctp",
+		"/home/vinay/Projects/php/briangavindiamonds/trunk/public_flat_design/app/app_controller.php",
+		"/home/vinay/Projects/php/briangavindiamonds/trunk/supporting_applications/mobile/app/Controller/WebPagesController.php"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/home/vinay/Projects/php/blog",
+			"/home/vinay/Projects/php/briangavindiamonds/trunk/public_flat_design/app/views",
+			"/home/vinay/Projects/php/briangavindiamonds/trunk/supporting_applications/brianthecutter/wp-content/plugins/related-posts-by-zemanta",
+			"/home/vinay/Projects/php/briangavindiamonds/trunk/supporting_applications/brianthecutter/wp-content/plugins/related-posts-by-category",
+			"/home/vinay/Projects/php/briangavindiamonds/trunk/supporting_applications/brianthecutter/wp-content/plugins/related-posts-by-zemanta",
+			"/home/vinay/Projects/php/briangavindiamonds/trunk/supporting_applications/brianthecutter/wp-content/wptouch-data",
+			"/home/vinay/Projects/php/briangavindiamonds/trunk/supporting_applications/brianthecutter/wp-content/wptouch-data/themes",
+			"/home/vinay/Projects/php/briangavindiamonds/trunk/supporting_applications/news/wp-content/themes/flat_design"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"markdown",
+			"RouteCollection",
+			"$this->routes ",
+			"$this->routes",
+			"this->routes",
+			"getRoutes",
+			"$this->routes",
+			"filter",
+			"root",
+			"Traits",
+			"root",
+			"local",
+			"root",
+			"chdir",
+			"pwd",
+			"cwd",
+			"static",
+			"codecept",
+			"\\App\\",
+			"definition",
+			"jump",
+			"ctrl+space",
+			"space",
+			"click",
+			"json",
+			"homestead",
+			"/home/vinay/Projects/",
+			"gedit",
+			"sublime",
+			"gedit",
+			"DateTime",
+			"dateTime",
+			"DateTime",
+			"app/controllers/occasional_coupons_controller.php",
+			"middleware",
+			"__DIR__",
+			"item_name_trimmed",
+			"trimmed",
+			"quick info",
+			"item_title",
+			"pap",
+			"check for setting",
+			"$error_flag['no_associate'] = 1;",
+			"$error_flag['no_associate']",
+			"_applyCouponDiscount",
+			"gift",
+			"$mobile_view",
+			"file",
+			"custom-upload",
+			"Brian_Gavin_Jewelry_Gallery.swf",
+			"gallery",
+			"is_mobile && $webPage['WebPage']['enable_mobile_content'] == 'yes' && $webPage['WebPa",
+			"mobileWebpage",
+			"haswebpage",
+			"ay('controller'=>'Diamonds', 'action'=>",
+			"is_mobile_request",
+			"tmp",
+			"related posts",
+			"related",
+			"wptouch-menu",
+			"admin1",
+			"/admin1",
+			"admin",
+			"RECENT POSTS",
+			"Archives",
+			"Articles",
+			"sync",
+			"ctrl+tab",
+			"dev"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "vendor/laravel/framework/src/Illuminate/Foundation/Inspiring.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 663,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								648,
+								648
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"function_name_status_row": 24,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/User.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 862,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								855,
+								855
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"function_name_status_row": 35,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": -0.0,
+						"translation.y": 255.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "blog.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"inspiring",
+				"vendor/laravel/framework/src/Illuminate/Foundation/Inspiring.php"
+			],
+			[
+				"inspire",
+				"app/Console/Commands/Inspire.php"
+			],
+			[
+				"route",
+				"app/Http/routes.php"
+			],
+			[
+				"routes",
+				"app/Http/routes.php"
+			],
+			[
+				"illucolle",
+				"vendor/laravel/framework/src/Illuminate/Support/Collection.php"
+			],
+			[
+				"app",
+				"config/app.php"
+			],
+			[
+				"all.ph",
+				"tests/factories/all.php"
+			],
+			[
+				"illumcollection",
+				"vendor/laravel/framework/src/Illuminate/Support/Collection.php"
+			],
+			[
+				"docscont",
+				"app/Http/Controllers/DocsController.php"
+			],
+			[
+				"serializesmodels",
+				"vendor/laravel/framework/src/Illuminate/Queue/SerializesModels.php"
+			],
+			[
+				"interactswithqueue",
+				"vendor/laravel/framework/src/Illuminate/Queue/InteractsWithQueue.php"
+			],
+			[
+				"validatesrequests",
+				"vendor/laravel/framework/src/Illuminate/Foundation/Validation/ValidatesRequests.php"
+			],
+			[
+				"dispatches",
+				"vendor/laravel/framework/src/Illuminate/Foundation/Bus/DispatchesCommands.php"
+			],
+			[
+				"docsindex",
+				"resources/views/docs/index.blade.php"
+			],
+			[
+				"string",
+				"vendor/danielstjules/stringy/src/Stringy.php"
+			],
+			[
+				"model",
+				"vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php"
+			],
+			[
+				"configapp",
+				"config/app.php"
+			],
+			[
+				"illu/foundationhttp/",
+				"vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php"
+			],
+			[
+				"router",
+				"vendor/laravel/framework/src/Illuminate/Routing/Router.php"
+			],
+			[
+				"configapp.php",
+				"config/app.php"
+			],
+			[
+				"helper",
+				"vendor/laravel/framework/src/Illuminate/Foundation/helpers.php"
+			],
+			[
+				"compo",
+				"composer.json"
+			],
+			[
+				"illuview",
+				"vendor/laravel/framework/src/Illuminate/View/View.php"
+			],
+			[
+				"rout",
+				"app/Http/routes.php"
+			],
+			[
+				"illufilesystem",
+				"vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php"
+			],
+			[
+				"filesystem",
+				"vendor/codeception/codeception/src/Codeception/Util/FileSystem.php"
+			],
+			[
+				"symfony/component/finder/finder",
+				"vendor/symfony/finder/Symfony/Component/Finder/Finder.php"
+			],
+			[
+				"illuminate/support/traits/macroable",
+				"vendor/laravel/framework/src/Illuminate/Support/Traits/Macroable.php"
+			],
+			[
+				"illuminate/filesystem",
+				"vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php"
+			],
+			[
+				"serviceproivder",
+				"vendor/laravel/framework/src/Illuminate/Filesystem/FilesystemServiceProvider.php"
+			],
+			[
+				"filesiterator",
+				"vendor/symfony/finder/Symfony/Component/Finder/Iterator/FilePathsIterator.php"
+			],
+			[
+				"laravelfilesystem",
+				"vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php"
+			],
+			[
+				"storage",
+				"vendor/laravel/framework/src/Illuminate/Support/Facades/Storage.php"
+			],
+			[
+				"configfilesystem",
+				"config/filesystems.php"
+			],
+			[
+				"configfile",
+				"config/filesystems.php"
+			],
+			[
+				"rou",
+				"app/Http/routes.php"
+			],
+			[
+				"querybuilder",
+				"vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php"
+			],
+			[
+				"builder",
+				"vendor/laracasts/testdummy/src/Builder.php"
+			],
+			[
+				"servicproivder",
+				"app/Providers/BusServiceProvider.php"
+			],
+			[
+				"c",
+				"vendor/bin/codecept"
+			],
+			[
+				"fileupload",
+				"vendor/facebook/webdriver/tests/functional/FileUploadTest.php"
+			],
+			[
+				"uploadfile",
+				"vendor/facebook/webdriver/tests/functional/files/FileUploadTestCaseFile.txt"
+			],
+			[
+				"querybuil",
+				"vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php"
+			],
+			[
+				"support/collection",
+				"vendor/laravel/framework/src/Illuminate/Support/Collection.php"
+			],
+			[
+				"basecolle",
+				"vendor/laravel/framework/src/Illuminate/Database/Eloquent/Collection.php"
+			],
+			[
+				"eloqucoll",
+				"vendor/laravel/framework/src/Illuminate/Database/Eloquent/Collection.php"
+			],
+			[
+				"post",
+				"app/Post.php"
+			],
+			[
+				"env.",
+				".env.example"
+			],
+			[
+				"r",
+				"app/Http/routes.php"
+			],
+			[
+				"compild",
+				"vendor/compiled.php"
+			],
+			[
+				"canresetpassword",
+				"vendor/laravel/framework/src/Illuminate/Foundation/Auth/ResetsPasswords.php"
+			],
+			[
+				"authenticatesandregistersusers",
+				"vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesAndRegistersUsers.php"
+			],
+			[
+				"local",
+				"vendor/league/flysystem/src/Adapter/Local.php"
+			],
+			[
+				"illuminate/http/kernel",
+				"vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php"
+			],
+			[
+				"illuminate/contracts/http/kernel",
+				"vendor/laravel/framework/src/Illuminate/Contracts/Http/Kernel.php"
+			],
+			[
+				"apphttpkernel",
+				"app/Http/Kernel.php"
+			],
+			[
+				"bootstrap/app.php",
+				"bootstrap/app.php"
+			],
+			[
+				"index",
+				"public/index.php"
+			],
+			[
+				"fileserviceprovider",
+				"vendor/laravel/framework/src/Illuminate/Filesystem/FilesystemServiceProvider.php"
+			],
+			[
+				"ro",
+				"app/Http/routes.php"
+			],
+			[
+				"verifycsrftoken",
+				"app/Http/Middleware/VerifyCsrfToken.php"
+			],
+			[
+				"mailer",
+				"vendor/laravel/framework/src/Illuminate/Mail/Mailer.php"
+			],
+			[
+				"flip_card_info_complete",
+				"app/views/settings/flip_card_info_complete.ctp"
+			],
+			[
+				"settingoptions",
+				"app/views/settings/_options.ctp"
+			],
+			[
+				"settingdetails",
+				"app/views/settings/details.ctp"
+			],
+			[
+				"modelsetting.php",
+				"app/models/setting.php"
+			],
+			[
+				"settingcon",
+				"app/controllers/settings_controller.php"
+			],
+			[
+				"layoutheadscript",
+				"app/views/elements/flat_design_layout/head_scripts.ctp"
+			],
+			[
+				"layoutheader",
+				"app/views/elements/flat_design_layout/header.ctp"
+			],
+			[
+				"cartscon",
+				"app/controllers/carts_controller.php"
+			],
+			[
+				"loader",
+				"app/webroot/scripts/loader.js"
+			],
+			[
+				"contaform",
+				"app/views/elements/contacts/mobile_contact-form.ctp"
+			],
+			[
+				"locaboo",
+				"app/config/local_bootstrap.php"
+			],
+			[
+				"appboot",
+				"app/config/bootstrap.php"
+			],
+			[
+				"webpages/gallery-widget",
+				"app/views/elements/webpages/gallery-widget.ctp"
+			],
+			[
+				"webpagecont",
+				"app/controllers/web_pages_controller.php"
+			],
+			[
+				"webpagedetail",
+				"app/views/web_pages/details.ctp"
+			],
+			[
+				"appcont",
+				"app/app_controller.php"
+			],
+			[
+				"setup",
+				"setup.sh"
+			],
+			[
+				"cake/libs/folder.php",
+				"cake/libs/folder.php"
+			],
+			[
+				"database",
+				"app/config/database.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "news",
+		"selected_items":
+		[
+			[
+				"news",
+				"~/Projects/php/briangavindiamonds/trunk/supporting_applications/news/news.sublime-workspace"
+			],
+			[
+				"",
+				"~/Projects/php/briangavindiamonds/trunk/public_flat_design/flat_public.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 425.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
